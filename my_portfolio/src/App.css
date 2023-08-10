@@ -1,0 +1,108 @@
+/* App.css */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  height: 10;
+  margin: 0;
+  background-color: #d4c194;
+  text-decoration-color: #5c74d1;
+}
+
+.header {
+  background-color: #8a56cd;
+  color: #74b7d2;
+  text-align: center;
+  padding: 1rem;
+  text-decoration-color: #5c74d1;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.section {
+  margin-bottom: 2rem;
+}
+
+.section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #5b83d5;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.contact-info p {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.project {
+  background-color: #7988e5;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+  text-decoration-color: #5c74d1;
+}
+
+.project h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  color: #accb69;
+}
+
+.project p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.project a {
+  display: inline-block;
+  background-color: #6793e0;
+  color: #73d4a5;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.skills-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills-list li {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+  text-decoration-color: #5c74d1;
+}
+
+.developer-setup {
+  background-color: #f9f9f9;
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 2rem;
+}
+
+.resources-list {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+.resources-list li {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+  color: #5c74d1;
+}
+
+/* Add additional styles as needed */
